@@ -15,7 +15,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
+  <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
+  
   <project name="ChameleonOS/android_build" path="build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
