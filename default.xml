@@ -17,8 +17,9 @@
            sync-j="4" />
   <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods-1" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
-  
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" /> 
+  <project path="external/svox" name="sostk/android_svox" remote="github" revision="kitkat-release" />
+
   <project name="ChameleonOS/android_build" path="build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -235,7 +236,6 @@
   <project path="external/stlport" name="ChameleonOS/android_external_stlport" groups="pdk" />
   <project path="external/strace" name="ChameleonOS/android_external_strace" />
   <project path="external/stressapptest" name="ChameleonOS/android_external_stressapptest" />
-  <project path="external/svox" name="ChameleonOS/android_external_svox" />
   <project path="external/tagsoup" name="ChameleonOS/android_external_tagsoup" />
   <project path="external/tcpdump" name="ChameleonOS/android_external_tcpdump" />
   <project path="external/timezonepicker-support" name="ChameleonOS/android_external_timezonepicker-support" />
